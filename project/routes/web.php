@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/hello',[App\Http\Controllers\HelloController::class, 'show']);
+Route::get('/form',[App\Http\Controllers\form::class, 'show']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');

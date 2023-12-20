@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HelloController extends Controller
+class form extends Controller
 {
     public function show(){
-        return view('hello');
+        return view('form');
     }
 }

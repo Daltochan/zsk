@@ -1,2 +1,0 @@
-Hejka naklejka
-<hr>
